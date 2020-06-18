@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <RootNamespace>SS.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Modules\CollectionApi\**" />
+    <Content Remove="Modules\CollectionApi\**" />
+    <EmbeddedResource Remove="Modules\CollectionApi\**" />
+    <None Remove="Modules\CollectionApi\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="BuildBundlerMinifier" Version="2.9.406" />
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.OpenApi" Version="1.1.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+    <PackageReference Include="Serilog" Version="2.9.0" />
+    <PackageReference Include="Serilog.Formatting.Compact" Version="1.1.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SS.Collections. Infrastructure\SS.Collections.Infrastructure.csproj" />
+    <ProjectReference Include="..\SS.Infrastructure.PagginationList\SS.Infrastructure.PagginationList.csproj" />
+    <ProjectReference Include="..\SS.Organization.Application\SS.Organizations.Application.csproj" />
+    <ProjectReference Include="..\SS.Organization.Infrastructure\SS.Organizations.Infrastructure.csproj" />
+    <ProjectReference Include="..\SS.User.Application\SS.Users.Application.csproj" />
+    <ProjectReference Include="..\SS.User.Infrastructure\SS.Users.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

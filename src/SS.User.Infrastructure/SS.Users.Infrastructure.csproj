@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Configuration\UserModuleStartup.cs~RF414be0a.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.6.2" />
+    <PackageReference Include="MediatR" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.2" />
+    <PackageReference Include="MongoDB.Driver" Version="2.10.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.6.0" />
+    <PackageReference Include="Serilog" Version="2.9.0" />
+    <PackageReference Include="Autofac" Version="4.9.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SS.Common\SS.Common.csproj" />
+    <ProjectReference Include="..\SS.Infrastructure.GrantStore\SS.Infrastructure.GrantStore.csproj" />
+    <ProjectReference Include="..\SS.Infrastructure.ModuleClient\SS.Infrastructure.ModuleClient.csproj" />
+    <ProjectReference Include="..\SS.IntegrationEvents\SS.Users.IntegrationEvents.csproj" />
+    <ProjectReference Include="..\SS.User.Application\SS.Users.Application.csproj" />
+  </ItemGroup>
+
+</Project>

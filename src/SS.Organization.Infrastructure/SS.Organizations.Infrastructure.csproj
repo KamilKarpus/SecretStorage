@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.6.2" />
+    <PackageReference Include="MediatR" Version="8.0.1" />
+    <PackageReference Include="Autofac" Version="4.9.2" />
+    <PackageReference Include="Serilog" Version="2.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SS.Common\SS.Common.csproj" />
+    <ProjectReference Include="..\SS.Infrastructure.ModuleClient\SS.Infrastructure.ModuleClient.csproj" />
+    <ProjectReference Include="..\SS.Organization.Application\SS.Organizations.Application.csproj" />
+    <ProjectReference Include="..\SS.Organization.Domain\SS.Organizations.Domain.csproj" />
+    <ProjectReference Include="..\SS.Organization.IntegrationEvents\SS.Organizations.IntegrationEvents.csproj" />
+  </ItemGroup>
+
+</Project>

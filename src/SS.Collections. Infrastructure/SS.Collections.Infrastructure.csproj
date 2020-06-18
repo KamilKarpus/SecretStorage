@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>SS.Collections._Infrastructure</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.2" />
+    <PackageReference Include="MediatR" Version="8.0.1" />
+    <PackageReference Include="Serilog" Version="2.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SS.Collection.IntegrationEvents\SS.Collections.IntegrationEvents.csproj" />
+    <ProjectReference Include="..\SS.Collections.Application\SS.Collections.Application.csproj" />
+    <ProjectReference Include="..\SS.Collections.Domain\SS.Collections.Domain.csproj" />
+    <ProjectReference Include="..\SS.Common\SS.Common.csproj" />
+    <ProjectReference Include="..\SS.Infrastructure.EventBus\SS.Infrastructure.EventBus.csproj" />
+    <ProjectReference Include="..\SS.Infrastructure.KeyVault\SS.Infrastructure.KeyVault.csproj" />
+    <ProjectReference Include="..\SS.Infrastructure.PagginationList\SS.Infrastructure.PagginationList.csproj" />
+    <ProjectReference Include="..\SS.Rijndael.Cryptography\SS.Rijndael.Cryptography.csproj" />
+  </ItemGroup>
+</Project>

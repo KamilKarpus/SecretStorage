@@ -1,0 +1,34 @@
+{"@t":"2020-04-08T09:29:15.1065883Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T09:33:31.9129611Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T09:34:06.4761058Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T09:39:31.7334588Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T09:42:43.7501139Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T09:45:35.5996724Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T09:48:56.8627498Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T09:50:15.5677699Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T09:50:57.3380202Z","@mt":"test","@l":"Error"}
+{"@t":"2020-04-08T10:04:39.2085462Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T10:07:59.6847304Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T10:20:22.8923737Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T12:23:24.9989553Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T12:32:59.8479362Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T12:35:41.5103715Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T12:39:49.4841833Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T12:41:49.8124369Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T12:42:15.8693883Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T12:43:39.6023212Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T12:48:37.5555909Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T12:59:02.7855664Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T12:59:52.1738128Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T13:00:26.4382509Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T13:01:13.5949707Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T13:02:26.5572442Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T13:03:22.2093954Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T13:05:06.5924910Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T13:05:23.0317950Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T13:09:18.1880852Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T13:09:38.0036053Z","@mt":"Command 10412671 proccesing failed. Exception This email is already taken","@l":"Error"}
+{"@t":"2020-04-08T13:11:30.6895072Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T18:07:58.2592365Z","@mt":"Logger configured","Module":"API"}
+{"@t":"2020-04-08T18:11:44.5332371Z","@mt":"Handled Commnad 14333193 sucessfull"}
+{"@t":"2020-04-08T18:11:46.3291252Z","@mt":"Command 12070837 proccesing failed. Exception [test1243] is already taken.","@l":"Error"}

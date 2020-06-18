@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SS.Collections.Domain\SS.Collections.Domain.csproj" />
+    <ProjectReference Include="..\SS.Infrastructure.PagginationList\SS.Infrastructure.PagginationList.csproj" />
+  </ItemGroup>
+
+</Project>

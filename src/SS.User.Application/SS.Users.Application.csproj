@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.1" />
+    <PackageReference Include="Serilog" Version="2.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SS.Common\SS.Common.csproj" />
+    <ProjectReference Include="..\SS.Infrastructure.PagginationList\SS.Infrastructure.PagginationList.csproj" />
+    <ProjectReference Include="..\SS.User.Domain\SS.Users.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
